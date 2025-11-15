@@ -1,0 +1,18 @@
+cd /d
+cd "B.Tech and Prepration"
+cd Java
+cd ShobhitUniversity
+cd fake_wallet
+
+cat > .gitignore << 'EOF'
+target/
+build/
+*.class
+*.log
+.project
+.classpath
+.settings/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
